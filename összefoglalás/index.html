@@ -1,0 +1,39 @@
+<!DOCTYPE html> <!--a dokumentum html5 nyelven íródik-->
+<html lang="hu"> <!--ebben van a html dokumnetum szerkesztve és itt állítod a nylevet-->
+<head>  <!--Böngészőnek ad utasításokat-->
+    <meta charset="UTF-8"> <!--karakterkódolás itt állítható-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="css/style.css"> <!--külső css csatolás (external)-->
+    <style> 
+        h1{
+            color: aqua; /* az összes h1 színezi*/
+        }
+    </style> <!-- belső css (internal)-->
+    <title>Document</title> <!--weboldal címe-->
+</head>
+<body> <!--a felhasználónak ad információkat-->
+    <h1 id="szin" style="color: blueviolet;">szia heló csá csumi cső</h1> <!--címsor h1 - h6 van-->
+    <p></p> <!--bekezdések létrehozása-->
+    <img src="link vagy img/kep.jpg" alt="ha a kép nem jeleníthető meg ezt írja ki" title="cím megjelenítése ha az egeret a kép felé viszem"> <!--kép megjelenítése forrása lehet link vagy letöltött img mappában található kép , az alt és title kötelező elem az ágazatin-->
+    <a href="weboldal címe vagy cica.html vagy ugrópont létrehozása(#id) target="_blank" (új oldalon való megnyitás)></a> <!-- link készítése , vagy új weboldalra navigálás vagy saját oldalon belül navigálás illetve ugrópont létrehozása úgy hogy az adott rész egyedi azonosítóját írjuk  a hrefbe-->
+    <ul> 
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul> <!-- számozatlan felsorolás, beltagja az li , emmetkód (gyors kód) ul>li*3 - ez 3 lista elemet tartalmaz-->
+
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol> <!--számozott felsorolás-->
+
+    <ul id="cica" class="kutya">
+        <li>1.listaelem</li>
+        <li>2.listaelem</li>
+        <li>3.listaelem</li>
+        <li>4.listaelem</li>
+        <li>5.listaelem</li>
+    </ul> <!-- ul#cica.kutya>li{$.}* -->
+</body>
+</html>
