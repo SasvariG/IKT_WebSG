@@ -5,3 +5,10 @@
 h1 {
     color: blue;
 }
+
+p{
+    font-weight: bold; /*félkövér betű stílus */
+    font-style: italic; /* dölt*/
+    text-decoration: underline; /*aláhúzott*/
+    text-decoration: none; /* megszüntetés*/
+}
